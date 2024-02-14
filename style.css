@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1, img{
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+ flex: 0 1 110px;
+ border-radius: 5px;
+ border: solid 1px #073d4b;
+ background-color: azure;
+ cursor: pointer;
+}
+
+.btn-ligar:hover,
+.btn-desligar:hover {
+    color: #ffffff;
+    background-color: #073d4b;
+    border-color: aliceblue;
+    transition: .6s;
+}
+
+.inativar {
+    cursor: default;
+    background-color: #d2d3d8;
+    color: black;
+}
